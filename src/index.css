@@ -1,0 +1,40 @@
+/* Dark theme overrides */
+.dark-theme {
+  --primary-color: #66b3ff;
+  --background-color: #121212;
+  --text-color: #ccc;
+  --nav-background: #1f1f1f;
+  --button-bg: #005b99;
+  --button-hover: #40a8dd;
+  --secondary-layer: rgba(0, 0, 0, 0.3);
+  --secondary-color: #0d4073;
+}
+
+.light-theme {
+  --primary-color: #007acc;
+  --background-color: #fff;
+  --text-color: #333;
+  --nav-background: #fff;
+  --button-bg: #005b99;
+  --button-hover: #40a8dd;
+  --secondary-layer: #f5f5f5;
+  --secondary-color: #c0dffe;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global reset to prevent horizontal scroll */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

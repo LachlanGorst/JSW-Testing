@@ -1,0 +1,61 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.main {
+  flex: 1;
+  padding-top: 80px;
+  /* Animated gradient background */
+  animation: backgroundSlide 20s ease infinite;
+  background: linear-gradient(
+    270deg,
+    var(--primary-color),
+    #66b3ff,
+    var(--secondary-color)
+  );
+  background-size: 600% 600%;
+}
+
+.card {
+  flex: 1 1 300px;
+  background: var(--secondary-layer);
+  border-radius: 8px;
+  padding: 20px;
+  /* box-shadow: 0 2px 8px var(--primary-color); */
+  transition: transform 0.5s ease;
+  animation: boxShadowGlow 5s ease-in-out infinite;
+}
+
+.sections {
+  margin: 20px;
+  border-radius: 10px;
+}
+
+@keyframes boxShadowGlow {
+  0% {
+    box-shadow: 0 2px 16px var(--primary-color);
+  }
+  50% {
+    box-shadow: 0 2px 16px #555;
+  }
+  100% {
+    box-shadow: 0 2px 16px var(--primary-color);
+  }
+}
+
+/* Keyframes for smooth background animation */
+@keyframes backgroundSlide {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
