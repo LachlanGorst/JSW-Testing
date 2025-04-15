@@ -1,8 +1,13 @@
-## setup
+### Demonstration app hosting:
 
-- install material icons:
-- npm install @mui/icons-material @mui/material
-- npm install @emotion/react @emotion/styled
+### \*\*https://jsw-testing-lachy.firebaseapp.com/
 
-- firebase:
-- npm install -g firebase-tools
+### Setup
+
+install dependencies:
+
+- npm ci
+
+run:
+
+- npm run dev
