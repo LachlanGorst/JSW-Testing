@@ -1,6 +1,6 @@
 ### Demonstration app hosting:
 
-### \*\*https://jsw-testing-lachy.firebaseapp.com/
+### https://jsw-testing-lachy.firebaseapp.com/
 
 ### Setup
 

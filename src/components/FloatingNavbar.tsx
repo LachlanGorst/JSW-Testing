@@ -41,9 +41,6 @@ const FloatingNavbar = ({ darkMode, toggleTheme }: FloatingNavbarProps) => {
         <li>
           <a href="#team">Team</a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
       </ul>
       <div className="theme-toggle">
         <button onClick={toggleTheme} aria-label="Toggle Dark Mode">

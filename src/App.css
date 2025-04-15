@@ -10,14 +10,14 @@
   flex: 1;
   padding-top: 80px;
   /* Animated gradient background */
-  animation: backgroundSlide 20s ease infinite;
+  animation: backgroundSlide 10s ease infinite;
   background: linear-gradient(
     270deg,
     var(--primary-color),
-    #66b3ff,
+    var(--button-hover),
     var(--secondary-color)
   );
-  background-size: 600% 600%;
+  background-size: 300% 300%;
 }
 
 .card {

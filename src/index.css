@@ -1,6 +1,17 @@
 /* Dark theme overrides */
 .dark-theme {
-  --primary-color: #ff3333; /*#66b3ff;*/
+  /* ! one for fun ! */
+  /*
+  --primary-color: #e00000;
+  --background-color: #121212;
+  --text-color: #ccc;
+  --nav-background: #1f1f1f;
+  --button-bg: #990000;
+  --button-hover: #dd4040;
+  --secondary-layer: rgba(0, 0, 0, 0.3);
+  --secondary-color: #5b0000; */
+  /* ? actual one ? */
+  --primary-color: #66b3ff;
   --background-color: #121212;
   --text-color: #ccc;
   --nav-background: #1f1f1f;
